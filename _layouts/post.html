@@ -2,11 +2,11 @@
 ---
 
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="My linked notebook" property="og:site_name"/>
-    <meta content="My path to perpetual learning." property="og:description">
+    <meta content="My Notes" property="og:site_name"/>
+    <meta content="reckoning.dev wiki page" property="og:description">
     <meta content="{{ site.url }}/about/" property="article:author">
 
 
@@ -44,13 +44,13 @@
 
 
 
-    <div class="container">                    
+    <div class="container">
         <div class = "box">
             {%- include header.html -%}
             {%- include feed.html -%}
 
-            {%- if page.content-type == "notes" 
-                or page.content-type == "post" 
+            {%- if page.content-type == "notes"
+                or page.content-type == "post"
                 or page.content-type == "eg" -%}
             <main>
                 <h1>{{page.title}}</h1>
