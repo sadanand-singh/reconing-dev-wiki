@@ -18,7 +18,7 @@ Given their common nature, there are three major open public datasets available 
 + [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/)
 
 
-![Figure 1: Sample ChestX Images](lung-xray-sample.png)
+![Figure 1: Sample ChestX Images](../assets/img/lung-xray-sample.png)
 
 All of these datasets have labels for following 14 thorax conditions.
 
